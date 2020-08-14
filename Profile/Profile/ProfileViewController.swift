@@ -14,41 +14,17 @@ struct PersonalInformation {
 import UIKit
 
 class ProfileViewController: UIViewController {
-  var  personalInformation : [PersonalInformation] = []
+  var  personalInformation : [PersonalInformation] = [PersonalInformation(name:"🌹",imageNumber:""),PersonalInformation(name:"Casimiro",imageNumber:""),PersonalInformation(name:"سالم محمد",imageNumber:""),PersonalInformation(name:"خالد البريكي",imageNumber:""),PersonalInformation(name:"علي البوسعيدي ",imageNumber:""),PersonalInformation(name:"سالم محمد",imageNumber:""),PersonalInformation(name:"Lucas Fascis",imageNumber:""),PersonalInformation(name:"Sergio Ramos",imageNumber:""),PersonalInformation(name: "Ferland Mindy",imageNumber:""),PersonalInformation(name: "Tony Cross",imageNumber:""),PersonalInformation(name: "Isco",imageNumber:""),PersonalInformation(name: "Nacho",imageNumber:"")]
     var Farouk = ""
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.backBarButtonItem = UIBarButtonItem(title: " ", style: .plain, target: nil, action: nil)
-      ProfileData()
     
         
    }
     
-func ProfileData()  {
-        personalInformation.append(PersonalInformation(name:"Hammam Aba jood",imageNumber:"IMG_F4142D4AD33B-1"))
-        personalInformation.append(PersonalInformation(name:"✏️",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"Farouk",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"Turky alarjan",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"Maid Al - My Army",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"سالم محمد",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"565656",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"Hammam Aba jood",imageNumber:"IMG_F4142D4AD33B-1"))
-        personalInformation.append(PersonalInformation(name:"565656",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"Farouk",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"Turky alarjan",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"Maid Al - My Army",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"سالم محمد",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"565656",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"Hammam Aba jood",imageNumber:"IMG_F4142D4AD33B-1"))
-        personalInformation.append(PersonalInformation(name:"565656",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"Farouk",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"Turky alarjan",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"Maid Al - My Army",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"سالم محمد",imageNumber:""))
-        personalInformation.append(PersonalInformation(name:"🌹",imageNumber:""))
-    }
-
+ 
 
 }
 

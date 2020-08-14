@@ -17,6 +17,6 @@ class PeopleCell: UITableViewCell {
     func personalInformation(personal:PersonalInformation)  {
        
         nounLabel.text = personal.name  ?? " 3"
-        ProfilePlaceholderView.characterColor(noun: personal.name ?? "3", imagNoun: personal.imageNumber!, Label: nounImageViewLabel, view: backgroundImageView, imag: photographImageView, color: .color)
+        ProfilePlaceholderView.characterColor(noun: personal.name ?? "3", imagNoun: personal.imageNumber!, Label: nounImageViewLabel, view: backgroundImageView, imag: photographImageView, color: .cAGradientLayer)
     }
 }

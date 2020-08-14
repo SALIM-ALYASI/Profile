@@ -18,7 +18,7 @@ class ViewAccountViewController: UIViewController {
         super.viewDidLoad()
         title = object.name
         nounLabel.text = object.name
-        ProfilePlaceholderView.characterColor(noun: object.name!, imagNoun: object.imageNumber!, Label: nounImageViewLabel, view: backgroundImageView, imag: photographImageView, color: .color)
+        ProfilePlaceholderView.characterColor(noun: object.name!, imagNoun: object.imageNumber!, Label: nounImageViewLabel, view: backgroundImageView, imag: photographImageView, color: .cAGradientLayer)
         navigationItem.backBarButtonItem = UIBarButtonItem(title: " ", style: .plain, target: nil, action: nil)
         
     }
